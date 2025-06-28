@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "yt chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Sreekar <sreekargv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+langchain = "^0.3.26"
+langchain-core = "^0.3.66"
+langchain-openai = "^0.3.26"
+openai = "^1.92.2"
+python-dotenv = "^1.1.1"
+numpy = "^2.3.1"
+scikit-learn = "^1.7.0"
+streamlit = "^1.46.1"
+pydantic = "^2.11.7"
+langchain-community = "^0.3.26"
+beautifulsoup4 = "^4.13.4"
+faiss-cpu = "^1.11.0"
+tiktoken = "^0.9.0"
+youtube-transcript-api = "^1.1.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

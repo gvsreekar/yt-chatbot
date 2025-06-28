@@ -1,0 +1,15 @@
+# Python general
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+venv/
+.envrc
+
+# Poetry
+poetry.lock
+
+# VSCode
+.vscode/
